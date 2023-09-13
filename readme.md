@@ -1,14 +1,14 @@
-# MICRO COMPILER
+# MICRO Compiler
 
 This Repo implements a parser with symbol table and also produces the machine code in tiny language for the MICRO programming language. 
 The machine code can be run by the tiny simulator. 
 
-# SCOPE
+## Scoper
 
 Statements, Expressions and Functions are implemented currently. Program flow constructs (Conditions and Loops) still remain to be implemented though. Sample input codes and arguments can be found in [input](/input)
 
 
-# Build the Compiler
+## Build the Compiler
 
 To build the compiler first install flex and bison. You can use the following commands for Ubuntu:
 
@@ -18,7 +18,7 @@ To build the compiler first install flex and bison. You can use the following co
 
 Then clone this repository and run the following command from inside the directory
 
-# Usage:
+## Usage:
 
 ``make compiler`` 						: 	Builds the compiler
 
@@ -37,7 +37,7 @@ g++ tinyNew.C -o tiny (Build the simulator) (No need to build if already ``make 
 ``./tiny <input_assembly_code(output_file of compiler)>``
 
 
-# Understanding the Code
+## Understanding the Code
 
 The Code comprises of the following: 
 
