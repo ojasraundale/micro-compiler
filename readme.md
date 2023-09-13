@@ -3,7 +3,7 @@
 This Repo implements a parser with symbol table and also produces the machine code in tiny language for the MICRO programming language. 
 The machine code can be run by the tiny simulator. 
 
-## Scoper
+## Scope
 
 Statements, Expressions and Functions are implemented currently. Program flow constructs (Conditions and Loops) still remain to be implemented though. Sample input codes and arguments can be found in [input](/input). The output generated codes and outputs can also be found in [output](/output)
 
